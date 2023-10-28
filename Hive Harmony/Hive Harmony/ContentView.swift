@@ -9,6 +9,8 @@ import SwiftUI
 import SafariServices
 
 struct HomeView: View {
+    @State private var isAuthenticated = false
+    
     var body: some View {
         ZStack {
             Color("HiveYellow")
@@ -22,22 +24,14 @@ struct HomeView: View {
                 } label: {
                 
                 }
-                ContentView()
+                if isAuthenticated {
+                    // Once authenticated, show the main content of your app
+                    Text("Welcome to your Spotify-integrated app!")
+                } else {
+                    // Show the login button
+                    SpotifyLoginView(isAuthenticated: $isAuthenticated)
+                }
             }
-        }
-    }
-}
-
-struct ContentView: View {
-    @State private var isAuthenticated = false
-    
-    var body: some View {
-        if isAuthenticated {
-            // Once authenticated, show the main content of your app
-            Text("Welcome to your Spotify-integrated app!")
-        } else {
-            // Show the login button
-            SpotifyLoginView(isAuthenticated: $isAuthenticated)
         }
     }
 }
