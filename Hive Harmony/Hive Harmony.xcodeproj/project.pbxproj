@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8CAC9292AED627D00457029 /* HackNC23App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CAC9282AED627D00457029 /* HackNC23App.swift */; };
-		F8CAC92B2AED627D00457029 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CAC92A2AED627D00457029 /* ContentView.swift */; };
-		F8CAC92D2AED627E00457029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CAC92C2AED627E00457029 /* Assets.xcassets */; };
-		F8CAC9302AED627E00457029 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CAC92F2AED627E00457029 /* Preview Assets.xcassets */; };
+		F87D29A72AEDABB400260DB1 /* Hive_HarmonyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D29A62AEDABB400260DB1 /* Hive_HarmonyApp.swift */; };
+		F87D29A92AEDABB400260DB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D29A82AEDABB400260DB1 /* ContentView.swift */; };
+		F87D29AB2AEDABB500260DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87D29AA2AEDABB500260DB1 /* Assets.xcassets */; };
+		F87D29AE2AEDABB500260DB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87D29AD2AEDABB500260DB1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F8CAC9252AED627D00457029 /* HackNC23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackNC23.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8CAC9282AED627D00457029 /* HackNC23App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNC23App.swift; sourceTree = "<group>"; };
-		F8CAC92A2AED627D00457029 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F8CAC92C2AED627E00457029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F8CAC92F2AED627E00457029 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F87D29A32AEDABB400260DB1 /* Hive Harmony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hive Harmony.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87D29A62AEDABB400260DB1 /* Hive_HarmonyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hive_HarmonyApp.swift; sourceTree = "<group>"; };
+		F87D29A82AEDABB400260DB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F87D29AA2AEDABB500260DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F87D29AD2AEDABB500260DB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F8CAC9222AED627D00457029 /* Frameworks */ = {
+		F87D29A02AEDABB400260DB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F8CAC91C2AED627D00457029 = {
+		F87D299A2AEDABB400260DB1 = {
 			isa = PBXGroup;
 			children = (
-				F8CAC9272AED627D00457029 /* HackNC23 */,
-				F8CAC9262AED627D00457029 /* Products */,
+				F87D29A52AEDABB400260DB1 /* Hive Harmony */,
+				F87D29A42AEDABB400260DB1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F8CAC9262AED627D00457029 /* Products */ = {
+		F87D29A42AEDABB400260DB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8CAC9252AED627D00457029 /* HackNC23.app */,
+				F87D29A32AEDABB400260DB1 /* Hive Harmony.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8CAC9272AED627D00457029 /* HackNC23 */ = {
+		F87D29A52AEDABB400260DB1 /* Hive Harmony */ = {
 			isa = PBXGroup;
 			children = (
-				F8CAC9282AED627D00457029 /* HackNC23App.swift */,
-				F8CAC92A2AED627D00457029 /* ContentView.swift */,
-				F8CAC92C2AED627E00457029 /* Assets.xcassets */,
-				F8CAC92E2AED627E00457029 /* Preview Content */,
+				F87D29A62AEDABB400260DB1 /* Hive_HarmonyApp.swift */,
+				F87D29A82AEDABB400260DB1 /* ContentView.swift */,
+				F87D29AA2AEDABB500260DB1 /* Assets.xcassets */,
+				F87D29AC2AEDABB500260DB1 /* Preview Content */,
 			);
-			path = HackNC23;
+			path = "Hive Harmony";
 			sourceTree = "<group>";
 		};
-		F8CAC92E2AED627E00457029 /* Preview Content */ = {
+		F87D29AC2AEDABB500260DB1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F8CAC92F2AED627E00457029 /* Preview Assets.xcassets */,
+				F87D29AD2AEDABB500260DB1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8CAC9242AED627D00457029 /* HackNC23 */ = {
+		F87D29A22AEDABB400260DB1 /* Hive Harmony */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8CAC9332AED627E00457029 /* Build configuration list for PBXNativeTarget "HackNC23" */;
+			buildConfigurationList = F87D29B12AEDABB500260DB1 /* Build configuration list for PBXNativeTarget "Hive Harmony" */;
 			buildPhases = (
-				F8CAC9212AED627D00457029 /* Sources */,
-				F8CAC9222AED627D00457029 /* Frameworks */,
-				F8CAC9232AED627D00457029 /* Resources */,
+				F87D299F2AEDABB400260DB1 /* Sources */,
+				F87D29A02AEDABB400260DB1 /* Frameworks */,
+				F87D29A12AEDABB400260DB1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HackNC23;
-			productName = HackNC23;
-			productReference = F8CAC9252AED627D00457029 /* HackNC23.app */;
+			name = "Hive Harmony";
+			productName = "Hive Harmony";
+			productReference = F87D29A32AEDABB400260DB1 /* Hive Harmony.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F8CAC91D2AED627D00457029 /* Project object */ = {
+		F87D299B2AEDABB400260DB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					F8CAC9242AED627D00457029 = {
+					F87D29A22AEDABB400260DB1 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = F8CAC9202AED627D00457029 /* Build configuration list for PBXProject "HackNC23" */;
+			buildConfigurationList = F87D299E2AEDABB400260DB1 /* Build configuration list for PBXProject "Hive Harmony" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = F8CAC91C2AED627D00457029;
-			productRefGroup = F8CAC9262AED627D00457029 /* Products */;
+			mainGroup = F87D299A2AEDABB400260DB1;
+			productRefGroup = F87D29A42AEDABB400260DB1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8CAC9242AED627D00457029 /* HackNC23 */,
+				F87D29A22AEDABB400260DB1 /* Hive Harmony */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F8CAC9232AED627D00457029 /* Resources */ = {
+		F87D29A12AEDABB400260DB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8CAC9302AED627E00457029 /* Preview Assets.xcassets in Resources */,
-				F8CAC92D2AED627E00457029 /* Assets.xcassets in Resources */,
+				F87D29AE2AEDABB500260DB1 /* Preview Assets.xcassets in Resources */,
+				F87D29AB2AEDABB500260DB1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F8CAC9212AED627D00457029 /* Sources */ = {
+		F87D299F2AEDABB400260DB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8CAC92B2AED627D00457029 /* ContentView.swift in Sources */,
-				F8CAC9292AED627D00457029 /* HackNC23App.swift in Sources */,
+				F87D29A92AEDABB400260DB1 /* ContentView.swift in Sources */,
+				F87D29A72AEDABB400260DB1 /* Hive_HarmonyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F8CAC9312AED627E00457029 /* Debug */ = {
+		F87D29AF2AEDABB500260DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		F8CAC9322AED627E00457029 /* Release */ = {
+		F87D29B02AEDABB500260DB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +259,14 @@
 			};
 			name = Release;
 		};
-		F8CAC9342AED627E00457029 /* Debug */ = {
+		F87D29B22AEDABB500260DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HackNC23/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Hive Harmony/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.HackNC23;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hive-Harmony";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -287,14 +287,14 @@
 			};
 			name = Debug;
 		};
-		F8CAC9352AED627E00457029 /* Release */ = {
+		F87D29B32AEDABB500260DB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HackNC23/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Hive Harmony/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.HackNC23;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hive-Harmony";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8CAC9202AED627D00457029 /* Build configuration list for PBXProject "HackNC23" */ = {
+		F87D299E2AEDABB400260DB1 /* Build configuration list for PBXProject "Hive Harmony" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8CAC9312AED627E00457029 /* Debug */,
-				F8CAC9322AED627E00457029 /* Release */,
+				F87D29AF2AEDABB500260DB1 /* Debug */,
+				F87D29B02AEDABB500260DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8CAC9332AED627E00457029 /* Build configuration list for PBXNativeTarget "HackNC23" */ = {
+		F87D29B12AEDABB500260DB1 /* Build configuration list for PBXNativeTarget "Hive Harmony" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8CAC9342AED627E00457029 /* Debug */,
-				F8CAC9352AED627E00457029 /* Release */,
+				F87D29B22AEDABB500260DB1 /* Debug */,
+				F87D29B32AEDABB500260DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F8CAC91D2AED627D00457029 /* Project object */;
+	rootObject = F87D299B2AEDABB400260DB1 /* Project object */;
 }
