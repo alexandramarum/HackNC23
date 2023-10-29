@@ -4,3 +4,5 @@ The goal of our project was to create an app allowing multiple players to access
 
 We unfortunately did not achieve this goal. We ran into roadblocks, ranging from the creation of a server to host our system to finding a way to allow our work in Python to communicate effectively with Swift.
 Despite this, we perservered in finding solutions, and made use of our mentors. For any roadblock that truly tripped us up, we overcame three others. 
+
+Our work was written in Python and Swift, using XCode and VSCode. UI/UX design was done in Figma.
