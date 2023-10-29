@@ -26,7 +26,7 @@ struct HomeView: View {
                 }
                 if isAuthenticated {
                     // Once authenticated, show the main content of your app
-                    Text("Welcome to your Spotify-integrated app!")
+                    ContentView()
                 } else {
                     // Show the login button
                     SpotifyLoginView(isAuthenticated: $isAuthenticated)
@@ -61,8 +61,50 @@ struct SpotifyLoginView: View {
             URLQueryItem(name: "redirect_uri", value: redirectUri),
             URLQueryItem(name: "scope", value: "user-library-read playlist-read-private")
         ]
+        isAuthenticated = true
         return components.url!
     }
+}
+
+struct ContentView: View {
+    @State private var longestPlaylist: LongestPlaylist?
+
+    var body: some View {
+        VStack {
+            if let playlist = longestPlaylist {
+                // Display the longest playlist data
+                Text("Longest Playlist: \(playlist.name)")
+                Text("Track Count: \(playlist.trackCount)")
+            } else {
+                // Fetch the data when it's not available
+                Button("Fetch Longest Playlist") {
+                    fetchLongestPlaylist()
+                }
+            }
+        }
+    }
+
+    func fetchLongestPlaylist() {
+        if let url = URL(string: "http://localhost:5000/longest-playlist") {
+            URLSession.shared.dataTask(with: url) { data, response, error in
+                if let data = data {
+                    do {
+                        let playlist = try JSONDecoder().decode(LongestPlaylist.self, from: data)
+                        DispatchQueue.main.async {
+                            self.longestPlaylist = playlist
+                        }
+                    } catch {
+                        print("Error decoding JSON: \(error)")
+                    }
+                }
+            }.resume()
+        }
+    }
+}
+
+struct LongestPlaylist: Codable {
+    let name: String
+    let trackCount: Int
 }
 
 struct SafariView: UIViewControllerRepresentable {
@@ -81,3 +123,18 @@ struct SafariView: UIViewControllerRepresentable {
             HomeView()
         }
     }
+
+struct User: Codable {
+    let name: String
+    let userID: String
+}
+
+struct Song {
+    let name: String
+    let artist: String
+    let image: String
+}
+
+struct Playlist {
+    let songs: [String]
+}
